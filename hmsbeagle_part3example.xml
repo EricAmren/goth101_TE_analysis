@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Session genome="/home/ericcumunel/Documents/cristina_TE_back/dmgoth/dmgoth101_assembl_chrom.fasta" hasGeneTrack="false" hasSequenceTrack="true" locus="X_RaGOO:4478660-4487682" nextAutoscaleGroup="2" version="8">
+    <Resources>
+        <Resource name="FC29.against_dmgoth.filtered_max_AS.bam" path="data/dmgoth_data/bam/FC29.against_dmgoth.filtered_max_AS.bam"/>
+        <Resource name="Dm_Goth_10-1.dmel6.23LiftOff.sorted.gff" path="data/dmgoth_data/AnnotGenes/Dm_Goth_10-1.dmel6.23LiftOff.sorted.gff"/>
+        <Resource name="dmgoth101.onecode.fixed.gtf" path="data/dmgoth_data/dmgoth101.onecode.fixed.gtf"/>
+        <Resource name="FC30.against_dmgoth.filtered_max_AS.bam" path="data/dmgoth_data/bam/FC30.against_dmgoth.filtered_max_AS.bam"/>
+    </Resources>
+    <Panel height="5000" name="Panel1622115513514" width="1347">
+        <Track attributeKey="FC29.against_dmgoth.filtered_max_AS.bam Coverage" autoScale="true" clazz="org.broad.igv.sam.CoverageTrack" color="175,175,175" colorScale="ContinuousColorScale;0.0;686.0;255,255,255;175,175,175" fontSize="10" id="/home/ericcumunel/Documents/goth101_TE_analysis/data/dmgoth_data/bam/FC29.against_dmgoth.filtered_max_AS.bam_coverage" name="FC29.against_dmgoth.filtered_max_AS.bam Coverage" snpThreshold="0.2" visible="true">
+            <DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="757.0" minimum="0.0" type="LINEAR"/>
+        </Track>
+        <Track attributeKey="FC29.against_dmgoth.filtered_max_AS.bam Junctions" clazz="org.broad.igv.sam.SpliceJunctionTrack" fontSize="10" height="60" id="/home/ericcumunel/Documents/goth101_TE_analysis/data/dmgoth_data/bam/FC29.against_dmgoth.filtered_max_AS.bam_junctions" name="FC29.against_dmgoth.filtered_max_AS.bam Junctions" visible="false"/>
+        <Track attributeKey="FC29.against_dmgoth.filtered_max_AS.bam" clazz="org.broad.igv.sam.AlignmentTrack" displayMode="EXPANDED" experimentType="THIRD_GEN" fontSize="10" id="/home/ericcumunel/Documents/goth101_TE_analysis/data/dmgoth_data/bam/FC29.against_dmgoth.filtered_max_AS.bam" name="FC29.against_dmgoth.filtered_max_AS.bam" visible="true">
+            <RenderOptions colorOption="NONE"/>
+        </Track>
+    </Panel>
+    <Panel height="4454" name="Panel1622115513562" width="1347">
+        <Track attributeKey="FC30.against_dmgoth.filtered_max_AS.bam Coverage" autoScale="true" clazz="org.broad.igv.sam.CoverageTrack" color="175,175,175" colorScale="ContinuousColorScale;0.0;957.0;255,255,255;175,175,175" fontSize="10" id="/home/ericcumunel/Documents/goth101_TE_analysis/data/dmgoth_data/bam/FC30.against_dmgoth.filtered_max_AS.bam_coverage" name="FC30.against_dmgoth.filtered_max_AS.bam Coverage" snpThreshold="0.2" visible="true">
+            <DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="1056.0" minimum="0.0" type="LINEAR"/>
+        </Track>
+        <Track attributeKey="FC30.against_dmgoth.filtered_max_AS.bam Junctions" clazz="org.broad.igv.sam.SpliceJunctionTrack" fontSize="10" height="60" id="/home/ericcumunel/Documents/goth101_TE_analysis/data/dmgoth_data/bam/FC30.against_dmgoth.filtered_max_AS.bam_junctions" name="FC30.against_dmgoth.filtered_max_AS.bam Junctions" visible="false"/>
+        <Track attributeKey="FC30.against_dmgoth.filtered_max_AS.bam" clazz="org.broad.igv.sam.AlignmentTrack" displayMode="EXPANDED" experimentType="THIRD_GEN" fontSize="10" id="/home/ericcumunel/Documents/goth101_TE_analysis/data/dmgoth_data/bam/FC30.against_dmgoth.filtered_max_AS.bam" name="FC30.against_dmgoth.filtered_max_AS.bam" visible="true">
+            <RenderOptions colorOption="NONE"/>
+        </Track>
+    </Panel>
+    <Panel height="360" name="FeaturePanel" width="1347">
+        <Track attributeKey="Reference sequence" clazz="org.broad.igv.track.SequenceTrack" fontSize="10" id="Reference sequence" name="Reference sequence" sequenceTranslationStrandValue="POSITIVE" shouldShowTranslation="false" visible="true"/>
+        <Track attributeKey="dmgoth101.onecode.fixed.gtf" clazz="org.broad.igv.track.FeatureTrack" color="0,0,178" colorScale="ContinuousColorScale;0.0;115.0;255,255,255;0,0,178" fontSize="10" id="/home/ericcumunel/Documents/goth101_TE_analysis/data/dmgoth_data/dmgoth101.onecode.fixed.gtf" name="dmgoth101.onecode.fixed.gtf" visible="true"/>
+        <Track attributeKey="Dm_Goth_10-1.dmel6.23LiftOff.sorted.gff" clazz="org.broad.igv.track.FeatureTrack" color="0,0,178" displayMode="EXPANDED" featureVisibilityWindow="1000000" fontSize="10" id="/home/ericcumunel/Documents/goth101_TE_analysis/data/dmgoth_data/AnnotGenes/Dm_Goth_10-1.dmel6.23LiftOff.sorted.gff" name="Dm_Goth_10-1.dmel6.23LiftOff.sorted.gff" visible="true"/>
+    </Panel>
+    <PanelLayout dividerFractions="0.012170385395537525,0.359026369168357,0.7200811359026369"/>
+    <HiddenAttributes>
+        <Attribute name="DATA FILE"/>
+        <Attribute name="DATA TYPE"/>
+        <Attribute name="NAME"/>
+    </HiddenAttributes>
+</Session>
